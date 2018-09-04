@@ -1,0 +1,126 @@
+/*Main Divisions*/
+.upper_header{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 2%;
+    width: 100%;
+}
+.upnav{
+    float: right;
+    background-color: #DCDCDC;
+}
+.button {
+    background-color: #e7e7e7;
+    color: black; 
+    border-radius: 12px;
+    border: none;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 2px 1px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+	/*background-color:#ABEBC6;*/
+	font-family:Century Gothic;
+	font-size:50px;
+	}
+@media screen and (max-width: 600px) {
+  div.header {
+    font-size: 30px;
+  }
+}
+.navbar{
+	background-color:#222;
+	color:white;
+}
+.headlines{
+	height:30px;
+     color: #F16244;
+	/*background-color:#EE7C64;*/
+	}
+/*full  screen image*/
+.slide_images{    
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 600px) {
+  div.slide_images {
+    display: none;
+  }
+}
+/*body*/
+.mainbody{
+	height:500px;	
+}
+/*newsbar*/
+.sidebar{
+	height:500px;
+/*	background-color:#DCDDDC;*/
+}
+
+/*news ticker*/
+.holder { 
+  background-color:#e5e5e5;
+  width:100%;
+  height:400px;
+  overflow:hidden;
+  padding:20px;
+  font-family:Helvetica;
+}
+.holder .mask {
+  position: relative;
+  left: 0px;
+  top: 10px;
+  width:100%;
+  height:400px;
+  overflow: hidden;
+font-family: 'Lato', sans-serif;
+}
+.holder ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: relative;
+}
+.holder ul li {
+  padding:10px 0px;
+}
+.holder ul li a {
+  text-decoration:none;
+}
+@media screen and (min-width: 480px) {
+    .footer{
+	padding:50px;
+}
+}
+@media screen and (max-width: 480px) {
+    .footer{
+	text-align:center;
+}
+}
+.footer{
+	color:white;
+	background-color:#1D1E1D;
+	font-family:Century Gothic;
+	}
+.footer>div>ul>li>a{
+	text-decoration:none; 
+	color:#C3C0C0;
+	}
+.footer>div>ul>li>a:hover{
+	color:#fff;
+	}
+.copyright{
+	background-color:#050505;
+	padding-top:20px; 
+	padding-bottom:30px;
+}
+@media screen and (min-width: 480px) {
+    .navbaralign{
+	padding-left:170px;
+	padding-right:170px;
+	}
+}
+
